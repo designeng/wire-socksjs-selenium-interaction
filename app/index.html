@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wire-appRouter</title>
+    <script type="text/javascript" data-main="/app/js/supermain" src="/app/js/lib/require.js"></script>
+
+</head>
+<body>
+    <ul id ="navigation">
+    	<li><a href="#/autocomplete">autocomplete</a></li>
+    	<li><a href="#/calendar">calendar</a></li>
+    	<li><a href="#/order/info">mountins</a></li>
+    </ul>
+
+    <ul id ="left-center-right">
+        <li><a href="#/order/left">left</a></li>
+        <li><a href="#/order/center" id="center">center</a></li>
+        <li><a href="#/order/right" id="right">right</a></li>
+    </ul>
+  
+    
+    <div id ="prospect"></div>   
+
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost')
+.split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
